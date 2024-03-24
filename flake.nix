@@ -29,6 +29,7 @@
             ({pkgs, ...}: {
               home.packages = [
                 pkgs.neovim
+                pkgs.tree
               ];
             })
           ];
